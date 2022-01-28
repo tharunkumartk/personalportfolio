@@ -8,6 +8,8 @@ tech:
   - Requests
   - RestAPI
 company: 'Independent Study and Mentorship'
+ios: ''
+android: ''
 showInProjects: true
 ---
 

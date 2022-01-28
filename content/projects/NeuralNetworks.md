@@ -9,6 +9,8 @@ tech:
   - Keras
 company: 'Independent Study and Mentorship'
 showInProjects: true
+ios: ''
+android: ''
 ---
 
 Research regarding the viablity of Neural Networks for real-life application, along with a concise description of their inner workings. 

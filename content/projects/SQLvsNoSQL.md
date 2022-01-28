@@ -8,6 +8,8 @@ tech:
   - NoSQL
 company: 'Independent Study and Mentorship'
 showInProjects: true
+ios: ''
+android: ''
 ---
 
 Research regarding the advantages and disadvantages of Relational Database Management Systems, like SQL. Considers viablity of NoSQL for the future of technology.
