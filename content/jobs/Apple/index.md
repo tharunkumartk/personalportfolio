@@ -1,9 +1,9 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
+date: '2021-06-04'
+title: 'Data Scientist Intern'
+company: 'TransGTI'
 location: 'Cupertino, CA'
-range: 'July - December 2017'
+range: 'June - August 2021'
 url: 'https://www.apple.com/music/'
 ---
 

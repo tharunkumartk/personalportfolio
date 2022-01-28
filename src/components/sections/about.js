@@ -136,7 +136,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Tharun Kumar, and I enjoy analyzing the vast 40 zettabytes of the internet to make viable predictions that have a meaningful impact on society. My interest in Data Science started when I was seven years old, when I attempted to emulate Sherlock Holmes in predicting human behavior through Artificial Intelligence. Although clueless at the time, I've grown significantly in the field of Computer Science through college-level courses and real-world experience. 
+              My name is Tharun Kumar, and I enjoy analyzing data across the internet to make viable predictions that have a meaningful impact on society. My interest in Data Science started when I was seven years old, when I attempted to emulate Sherlock Holmes in predicting human behavior through Artificial Intelligence. Although clueless at the time, I've grown significantly in the field of Computer Science through college-level courses and real-world experience. 
             </p>
 
             <p>
