@@ -164,7 +164,7 @@ const StyledProject = styled.li`
   }
 `;
 
-const Projects = () => {
+const Blogs = () => {
   const data = useStaticQuery(graphql`
     query {
       projects: allMarkdownRemark(
@@ -308,4 +308,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Blogs;
