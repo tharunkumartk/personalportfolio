@@ -8,8 +8,6 @@ import { Layout } from '@components';
 import { IconBookmark } from '@components/icons';
 
 const StyledMainContainer = styled.main`
-  counter-reset: section;
-
   & > header {
     margin-bottom: 100px;
     text-align: center;
