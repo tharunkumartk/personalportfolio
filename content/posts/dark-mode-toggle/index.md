@@ -1,99 +1,20 @@
 ---
-title: Dark Mode Toggle
+title: Facial Recognition, New Ideas, and Coding.
 description: Dark mode without the flash of default theme
 date: 2021-04-21
 draft: false
-slug: /pensieve/dark-mode-toggle
+slug: /blog/Facial-Recognition,-New Ideas,-and-Coding
 tags:
   - Theming
   - Dark Mode
 ---
 
-Dark mode toggle without the flash of default theme. Important bits:
+I made glasses for my computer.
 
-- CSS variables for color theming
-- Put `data-theme` attribute on `<html>`, not `<body>`, so we can run the JS before the DOM finishes rendering
-- Run local storage check in the `<head>`
-- JS for toggle button click handler can come after render
 
-## HTML
+This week, I focused on learning about computer vision and facial recognition in Python, and I was pleasantly surprised by how easy the tool is to use. There are several tutorials online, but all of them had a common denominator: the CV2 Python module. I made sure to learn and understand how the primary functions of the module work, but I still have some work to do. The primary method by which current-gen facial recognitions work is through Cascaded Processing. Instead of directly checking every single pixel millions of times, the algorithm runs basic tests first and eliminates any failures of the test. Although some pixels of the face may be removed, most of the face should stay intact, allowing the much quicker algorithm to work.
 
-```html
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    ...
-    <script>
-      // If there's a theme stored in localStorage, use it on the <html>
-      const localStorageTheme = localStorage.getItem('theme');
-      if (localStorageTheme) {
-        document.documentElement.setAttribute('data-theme', localStorageTheme);
-      }
-    </script>
-  </head>
-  <body>
-    <div class="theme-toggle">
-      <button
-        class="theme-toggle-btn js-theme-toggle"
-        aria-label="Activate dark mode"
-        title="Activate dark mode"
-      >
-        <!--
-        <svg class="light-mode">
-          <use xlink:href="#sun"></use>
-        </svg>
-        <svg class="dark-mode">
-          <use xlink:href="#moon"></use>
-        </svg>
-        -->
-      </button>
-    </div>
 
-    <script src="app.js"></script>
-  </body>
-</html>
-```
+After completing a basic facial detection program, I came up with some ideas for my Final Product. Extending my research from last week, I want to find a way to continue storing people’s memories virtually to remember their legacy. I hope to utilize Computer Vision in order to create 3D models of real people to create their virtual counterparts. In addition, I plan on using Natural Language Processing to implement a personality within this virtual counterpart. I can’t wait to see how I can merge the two fields next week.
 
-## CSS Variables
 
-```css
-:root {
-  --bg: #ffffff;
-  --text: #000000;
-}
-
-[data-theme='dark'] {
-  --bg: #000000;
-  --text: #ffffff;
-}
-```
-
-## JavaScript
-
-```js:title=app.js
-const themeToggleBtn = document.querySelector('.js-theme-toggle');
-
-themeToggleBtn.addEventListener('click', () => onToggleClick());
-
-const onToggleClick = () => {
-  const { theme } = document.documentElement.dataset;
-  const themeTo = theme && theme === 'light' ? 'dark' : 'light';
-  const label = `Activate ${theme} mode`;
-
-  document.documentElement.setAttribute('data-theme', themeTo);
-  localStorage.setItem('theme', themeTo);
-
-  themeToggleBtn.setAttribute('aria-label', label);
-  themeToggleBtn.setAttribute('title', label);
-};
-```
-
-## Resources
-
-- <https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/>
-- <https://css-tricks.com/flash-of-inaccurate-color-theme-fart/>
-- <https://mxb.dev/blog/color-theme-switcher/>
-- <https://www.joshwcomeau.com/react/dark-mode/>
-- <https://web.dev/prefers-color-scheme/>
