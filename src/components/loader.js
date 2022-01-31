@@ -43,7 +43,7 @@ const Loader = ({ finishLoading }) => {
     const loader = anime.timeline({
       complete: () => finishLoading(),
     });
-    if(Cookies.get('visited')=='false' || Cookies.get('visited')=='undefined') {
+    if(Cookies.get('visited')!='true') {
       Cookies.set('visited','true',{expires: .003})
       loader
       .add({
