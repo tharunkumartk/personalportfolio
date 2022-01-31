@@ -8,17 +8,13 @@ import { Layout } from '@components';
 import { IconBookmark } from '@components/icons';
 
 const StyledMainContainer = styled.main`
+  counter-reset: section;
+
   & > header {
     margin-bottom: 100px;
     text-align: center;
 
-    a {
-      &:hover,
-      &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
-            20 0,
-          auto;
-      }
+    
     }
   }
 
@@ -153,7 +149,7 @@ const PensievePage = ({ location, data }) => {
         <header>
           <h1 className="big-heading">Blog</h1>
           <p className="subtitle">
-            <a href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve">
+            <a>
               a collection of memories
             </a>
           </p>
