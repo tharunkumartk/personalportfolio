@@ -47,7 +47,7 @@ const TagsPage = ({
       </span>
 
       <h1>Tags</h1>
-      <ul className="fancy-list">
+      
         {group.map(tag => (
           <li key={tag.fieldValue}>
             <Link to={`/pensieve/tags/${kebabCase(tag.fieldValue)}/`} className="inline-link">
@@ -55,7 +55,7 @@ const TagsPage = ({
             </Link>
           </li>
         ))}
-      </ul>
+      
     </StyledTagsContainer>
   </Layout>
 );
