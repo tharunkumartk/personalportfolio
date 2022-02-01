@@ -13,4 +13,4 @@ android: ''
 showInProjects: true
 ---
 
-Learned how to utilize OpenCV's vast image classification libary to access my computer's camera and detect any faces in view. Used a stepping-stool for future facial recognition. 
+Learned how to utilize OpenCV's vast image classification libary to access my computer's camera and detect any faces in view. Used a stepping-stool for future facial recognition.
