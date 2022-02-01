@@ -1,8 +1,8 @@
 ---
-date: '2017-12-01'
+date: '2020-10-08'
 title: 'Neural Networks'
 github: ''
-external: 'https://tools.applemusic.com/en-us'
+external: 'https://docs.google.com/document/d/1OIF7g6KUr63KU3B8z5ePD7KbpYIcXjzg87s3rsE3l0Q/edit'
 tech:
   - Python
   - Tensorflow
