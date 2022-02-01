@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import anime from 'animejs';
 import styled from 'styled-components';
 import { IconLoader } from '@components/icons';
+import Cookies from 'js-cookie';
 
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -35,7 +36,6 @@ const StyledLoader = styled.div`
     }
   }
 `;
-
 const Loader = ({ finishLoading }) => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -43,8 +43,9 @@ const Loader = ({ finishLoading }) => {
     const loader = anime.timeline({
       complete: () => finishLoading(),
     });
-
-    loader
+    if(Cookies.get('visited')!='true') {
+      Cookies.set('visited','true',{expires: .003})
+      loader
       .add({
         targets: '#logo path',
         delay: 300,
@@ -73,6 +74,8 @@ const Loader = ({ finishLoading }) => {
         opacity: 0,
         zIndex: -1,
       });
+    }
+    
   };
 
   useEffect(() => {

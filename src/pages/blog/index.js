@@ -12,13 +12,7 @@ const StyledMainContainer = styled.main`
     margin-bottom: 100px;
     text-align: center;
 
-    a {
-      &:hover,
-      &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
-            20 0,
-          auto;
-      }
+    
     }
   }
 
@@ -153,7 +147,7 @@ const PensievePage = ({ location, data }) => {
         <header>
           <h1 className="big-heading">Blog</h1>
           <p className="subtitle">
-            <a href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve">
+            <a>
               a collection of memories
             </a>
           </p>
@@ -163,7 +157,7 @@ const PensievePage = ({ location, data }) => {
           {posts.length > 0 &&
             posts.map(({ node }, i) => {
               const { frontmatter } = node;
-              const { title, description, slug, date, tags } = frontmatter;
+              const { title, description, slug, date } = frontmatter;
               const formattedDate = new Date(date).toLocaleDateString();
 
               return (
@@ -181,7 +175,7 @@ const PensievePage = ({ location, data }) => {
 
                     <footer>
                       <span className="post__date">{formattedDate}</span>
-                      <ul className="post__tags">
+                      {/* <ul className="post__tags">
                         {tags.map((tag, i) => (
                           <li key={i}>
                             <Link to={`/pensieve/tags/${kebabCase(tag)}/`} className="inline-link">
@@ -189,7 +183,7 @@ const PensievePage = ({ location, data }) => {
                             </Link>
                           </li>
                         ))}
-                      </ul>
+                      </ul> */}
                     </footer>
                   </div>
                 </StyledPost>
@@ -221,8 +215,6 @@ export const pageQuery = graphql`
             description
             slug
             date
-            tags
-            draft
           }
           html
         }
