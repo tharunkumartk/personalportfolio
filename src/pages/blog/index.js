@@ -175,7 +175,7 @@ const PensievePage = ({ location, data }) => {
 
                     <footer>
                       <span className="post__date">{formattedDate}</span>
-                      <ul className="post__tags">
+                      {/* <ul className="post__tags">
                         {tags.map((tag, i) => (
                           <li key={i}>
                             <Link to={`/pensieve/tags/${kebabCase(tag)}/`} className="inline-link">
@@ -183,7 +183,7 @@ const PensievePage = ({ location, data }) => {
                             </Link>
                           </li>
                         ))}
-                      </ul>
+                      </ul> */}
                     </footer>
                   </div>
                 </StyledPost>
