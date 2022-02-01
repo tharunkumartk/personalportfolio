@@ -2,12 +2,12 @@
 date: '2021-06-04'
 title: 'Data Scientist Intern'
 company: 'TransGTI'
-location: 'Cupertino, CA'
+location: 'Dallas, TX'
 range: 'June - August 2021'
-url: 'https://www.apple.com/music/'
+url: 'https://transgti.com/'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Designed Azure SQL Database capable of efficiently storing real-time transportation data
+- Built HTML APIs to retrieve Estimated Time of Arrival for trucking agencies across the world
+- Architected and normalized location and speed data from trucking agencies around the world
+- Co-operated with a team of Data Scientists to deliver maximum performance utilizing minimal resources
