@@ -27,17 +27,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
-      tagsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___tags) {
-          fieldValue
-        }
-      }
+      
     }
   `);
 
   // Handle errors
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    reporter.panicOnBuild(`Error while running GraphQL query. suck my dick`);
     return;
   }
 
@@ -53,17 +49,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   });
 
   // Extract tag data from query
-  const tags = result.data.tagsGroup.group;
-  // Make tag pages
-  tags.forEach(tag => {
-    createPage({
-      path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
-      component: tagTemplate,
-      context: {
-        tag: tag.fieldValue,
-      },
-    });
-  });
+  
 };
 
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig

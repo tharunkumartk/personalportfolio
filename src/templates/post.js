@@ -52,7 +52,7 @@ const StyledPostContent = styled.div`
 
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags } = frontmatter;
+  const { title, date } = frontmatter;
 
   return (
     <Layout location={location}>
@@ -61,7 +61,7 @@ const PostTemplate = ({ data, location }) => {
       <StyledPostContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/blog">All memories</Link>
+          <Link to="/blog">All posts</Link>
         </span>
 
         <StyledPostHeader>
@@ -75,13 +75,7 @@ const PostTemplate = ({ data, location }) => {
               })}
             </time>
             <span>&nbsp;&mdash;&nbsp;</span>
-            {tags &&
-              tags.length > 0 &&
-              tags.map((tag, i) => (
-                <Link key={i} to={`/pensieve/tags/${kebabCase(tag)}/`} className="tag">
-                  #{tag}
-                </Link>
-              ))}
+            
           </p>
         </StyledPostHeader>
 
@@ -107,7 +101,6 @@ export const pageQuery = graphql`
         description
         date
         slug
-        tags
       }
     }
   }
