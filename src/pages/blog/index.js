@@ -157,7 +157,7 @@ const PensievePage = ({ location, data }) => {
           {posts.length > 0 &&
             posts.map(({ node }, i) => {
               const { frontmatter } = node;
-              const { title, description, slug, date, tags } = frontmatter;
+              const { title, description, slug, date } = frontmatter;
               const formattedDate = new Date(date).toLocaleDateString();
 
               return (
@@ -215,8 +215,6 @@ export const pageQuery = graphql`
             description
             slug
             date
-            tags
-            draft
           }
           html
         }
