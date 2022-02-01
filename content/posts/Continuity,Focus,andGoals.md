@@ -1,8 +1,6 @@
 ---
 title: Continuity, Focus, and Goals.
-description: We’re back. 
-
-This is now my second year in ISM, and I am more than excited to explore the field of ...
+description: We’re back. This is now my second year in ISM, and I am more than excited to explore the field of ...
 date: 2021-09-07
 draft: false
 slug: /blog/Continuity,-Focus,-and-Goals.

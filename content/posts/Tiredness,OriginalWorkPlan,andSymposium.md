@@ -1,8 +1,6 @@
 ---
 title: Tiredness, Original Work Plan, and Symposium.
-description: I am tired.
-
-This week was another busy one for Marching Band, and I was especially tired due to the...
+description: I am tired.This week was another busy one for Marching Band, and I was especially tired due to the...
 date: 2021-10-17
 draft: false
 slug: /blog/Tiredness,-Original-Work-Plan,-and-Symposium.

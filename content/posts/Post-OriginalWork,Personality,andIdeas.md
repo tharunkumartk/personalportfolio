@@ -1,8 +1,6 @@
 ---
 title: Post-Original Work, Personality, and Ideas.
-description: Imagine a computer able to think.
-
-This idea is what led me to explore the field of Artificial Intel...
+description: Imagine a computer able to think.This idea is what led me to explore the field of Artificial Intel...
 date: n 24-01-24
 draft: false
 slug: /blog/Post-Original-Work,-Personality,-and-Ideas.

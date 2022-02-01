@@ -1,8 +1,6 @@
 ---
 title: Contacts, Innovation, and Machine Learning.
-description: We had the Business Symposium this week, and I don’t think it went too bad.
-
-For my interview, I got...
+description: We had the Business Symposium this week, and I don’t think it went too bad.For my interview, I got...
 date: 2020-10-13
 draft: false
 slug: /blog/Contacts,-Innovation,-and-Machine-Learning.

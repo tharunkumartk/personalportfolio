@@ -1,8 +1,6 @@
 ---
 title: Models, Research, and Speeches.
-description: This week, I mainly researched and worked on my research speech. 
-
-The primary topic that I research...
+description: This week, I mainly researched and worked on my research speech. The primary topic that I research...
 date: 2020-11-15
 draft: false
 slug: /blog/Models,-Research,-and-Speeches.

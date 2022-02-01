@@ -1,8 +1,6 @@
 ---
 title: Me, Myself, and I.
-description: Sep 27, 2020
-
-Believe it or not, not many people know me. But those that do know me consider me as o...
+description: Sep 27, 2020Believe it or not, not many people know me. But those that do know me consider me as o...
 date: 2020-09-13
 draft: false
 slug: /blog/Me,-Myself,-and-I.

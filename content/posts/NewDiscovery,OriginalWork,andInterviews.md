@@ -1,8 +1,6 @@
 ---
 title: New Discovery, Original Work, and Interviews.
-description: I’m almost done.
-
-Last week, I began constructing the Neural Network for my Original Work, but quick...
+description: I’m almost done.Last week, I began constructing the Neural Network for my Original Work, but quick...
 date: 2021-12-04
 draft: false
 slug: /blog/New-Discovery,-Original-Work,-and-Interviews.

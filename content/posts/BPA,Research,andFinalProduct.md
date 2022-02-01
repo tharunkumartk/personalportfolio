@@ -1,8 +1,6 @@
 ---
 title: BPA, Research, and Final Product.
-description: This week I did not spend much time on ISM, because I had my BPA state competitions. 
-
-The reason I ...
+description: This week I did not spend much time on ISM, because I had my BPA state competitions. The reason I ...
 date: 2021-03-09
 draft: false
 slug: /blog/BPA,-Research,-and-Final-Product.

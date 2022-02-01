@@ -1,8 +1,6 @@
 ---
 title: Internship, Portfolio, and Original Work.
-description: I grew up this week.
-
-I managed to (potentially) land a Computer Science internship by networking th...
+description: I grew up this week.I managed to (potentially) land a Computer Science internship by networking th...
 date: 2021-09-28
 draft: false
 slug: /blog/Internship,-Portfolio,-and-Original-Work.

@@ -1,8 +1,6 @@
 ---
 title: Reddit API, Coding, and Experience.
-description: Coding is so much fun.
-
-The past week, I have been focusing on getting back into Python, particularl...
+description: Coding is so much fun.The past week, I have been focusing on getting back into Python, particularl...
 date: 2021-10-29
 draft: false
 slug: /blog/Reddit-API,-Coding,-and-Experience.

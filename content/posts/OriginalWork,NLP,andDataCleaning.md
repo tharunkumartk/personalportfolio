@@ -1,8 +1,6 @@
 ---
 title: Original Work, NLP, and Data Cleaning.
-description: It’s finally coming together. 
-
-I began actually putting my Original Work together, starting with co...
+description: It’s finally coming together. I began actually putting my Original Work together, starting with co...
 date: 2021-11-29
 draft: false
 slug: /blog/Original-Work,-NLP,-and-Data-Cleaning.

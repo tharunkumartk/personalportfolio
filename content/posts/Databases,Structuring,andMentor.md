@@ -1,8 +1,6 @@
 ---
 title: Databases, Structuring, and Mentor.
-description: Databases aren’t as hard as I thought.
-
-Last year, my four member website team won Third Place in BP...
+description: Databases aren’t as hard as I thought.Last year, my four member website team won Third Place in BP...
 date: 2021-11-10
 draft: false
 slug: /blog/Databases,-Structuring,-and-Mentor.

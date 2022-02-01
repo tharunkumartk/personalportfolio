@@ -1,8 +1,6 @@
 ---
 title: Mentorship, Product proposal, and Future.
-description: I’m excited. 
-
-This week I managed to land a Data Scientist mentor, and I am extremely excited. I me...
+description: I’m excited. This week I managed to land a Data Scientist mentor, and I am extremely excited. I me...
 date: 2021-01-26
 draft: false
 slug: /blog/Mentorship,-Product-proposal,-and-Future.

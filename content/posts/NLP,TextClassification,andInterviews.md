@@ -1,8 +1,6 @@
 ---
 title: NLP, Text Classification, and Interviews.
-description: Connections make a difference.
-
-I finally scheduled my first interview with an Artificial Intelligen...
+description: Connections make a difference.I finally scheduled my first interview with an Artificial Intelligen...
 date: 2021-11-09
 draft: false
 slug: /blog/NLP,-Text-Classification,-and-Interviews.

@@ -1,10 +1,6 @@
 ---
 title: Interviews, Cold calling, and Projects.
-description: Oct 27, 2020
-
-Interviews stress me out.
-
-That’s right, I said it. Interviews. Stress. Me. Out. I don...
+description: Oct 27, 2020Interviews stress me out.That’s right, I said it. Interviews. Stress. Me. Out. I don...
 date: 2020-10-05
 draft: false
 slug: /blog/Interviews,-Cold-calling,-and-Projects.

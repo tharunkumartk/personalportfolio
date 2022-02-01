@@ -1,8 +1,6 @@
 ---
 title: Resumes, Research, and Mistakes.
-description: We had another week focused on the fundamentals of branding. 
-
-We had another week focused on the fu...
+description: We had another week focused on the fundamentals of branding. We had another week focused on the fu...
 date: 2020-09-21
 draft: false
 slug: /blog/Resumes,-Research,-and-Mistakes.

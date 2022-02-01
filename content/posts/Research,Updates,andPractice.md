@@ -1,8 +1,6 @@
 ---
 title: Research, Updates, and Practice.
-description: The world keeps spinning. 
-
-This was the primary realization that I had throughout this week. After ...
+description: The world keeps spinning. This was the primary realization that I had throughout this week. After ...
 date: 2021-09-14
 draft: false
 slug: /blog/Research,-Updates,-and-Practice.

@@ -1,8 +1,6 @@
 ---
 title: Original Work, Time, and Genomics.
-description: I completely started my Original Work this week, and oh my. 
-
-I realized how truly difficult my upda...
+description: I completely started my Original Work this week, and oh my. I realized how truly difficult my upda...
 date: 2020-12-10
 draft: false
 slug: /blog/Original-Work,-Time,-and-Genomics.

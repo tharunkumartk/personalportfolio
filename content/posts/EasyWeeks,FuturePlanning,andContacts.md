@@ -1,10 +1,6 @@
 ---
 title: Easy Weeks, Future Planning, and Contacts.
-description: Easy weeks are unproductive.
-
-Easy weeks are unproductive.
-
-The past week was relatively laid back d...
+description: Easy weeks are unproductive.Easy weeks are unproductive.The past week was relatively laid back d...
 date: 2020-10-21
 draft: false
 slug: /blog/Easy-Weeks,-Future-Planning,-and-Contacts.

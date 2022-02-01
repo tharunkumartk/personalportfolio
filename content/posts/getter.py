@@ -45,12 +45,13 @@ while True:
     }
     file_name = title.replace(' ','').replace('.','').replace('\n','')+'.md'
     save_path = 'content\posts\\'+file_name
-
+    content = content.replace('�','\'')
     complete_path = os.path.join(save_path,file_name)
     with open(save_path,'w') as f:
         f.write('---\n')
         f.write('title: '+country_cities['title'])
         desc = country_cities['content'][0:100]
+        desc = desc.replace('\n', '').replace('�','\'')
         f.write('\ndescription: '+desc+'...')
         f.write('\ndate: '+formatted_date)
         f.write('\ndraft: false')

@@ -1,8 +1,6 @@
 ---
 title: Data Scientist, API, and Application in Medicine.
-description: This was the week of my first real interview.
-
-As I mentioned in one of my earlier blog posts, meeti...
+description: This was the week of my first real interview.As I mentioned in one of my earlier blog posts, meeti...
 date: 2020-10-27
 draft: false
 slug: /blog/Data-Scientist,-API,-and-Application-in-Medicine.

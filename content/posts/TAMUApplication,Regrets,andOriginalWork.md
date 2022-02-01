@@ -1,8 +1,6 @@
 ---
 title: TAMU Application, Regrets, and Original Work.
-description: I suck at making decisions.
-
-On Monday last week, I discovered that the application for Texas A&M’s ...
+description: I suck at making decisions.On Monday last week, I discovered that the application for Texas A&M’s ...
 date: 2021-10-17
 draft: false
 slug: /blog/TAMU-Application,-Regrets,-and-Original-Work.

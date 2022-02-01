@@ -1,8 +1,6 @@
 ---
 title: Issues, Original Work, and Caught Up.
-description: Where did I go wrong?
-
-A large portion of this week has been spent on perfecting my Neural Network f...
+description: Where did I go wrong?A large portion of this week has been spent on perfecting my Neural Network f...
 date: 2021-12-08
 draft: false
 slug: /blog/Issues,-Original-Work,-and-Caught-Up.

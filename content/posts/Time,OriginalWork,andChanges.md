@@ -1,8 +1,6 @@
 ---
 title: Time, Original Work, and Changes.
-description: Things are getting busy again.
-
-Marching Band is getting busy again, and I’m having trouble keeping ...
+description: Things are getting busy again.Marching Band is getting busy again, and I’m having trouble keeping ...
 date: 2021-10-07
 draft: false
 slug: /blog/Time,-Original-Work,-and-Changes.

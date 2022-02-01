@@ -1,8 +1,6 @@
 ---
 title: Resume, Portfolio, and Personal Project.
-description: I am up to date. 
-
-During this week, I focused on updating my resume and personal portfolio. It turn...
+description: I am up to date. During this week, I focused on updating my resume and personal portfolio. It turn...
 date: 2021-09-20
 draft: false
 slug: /blog/Resume,-Portfolio,-and-Personal-Project.

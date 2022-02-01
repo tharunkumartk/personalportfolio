@@ -1,9 +1,7 @@
 ---
 title: Interviews, Progress, and Work. 
 
-description: Jan 19, 2021
-
-The beginning of this week was relatively chill until Mrs. Altizer reminded me of some...
+description: Jan 19, 2021The beginning of this week was relatively chill until Mrs. Altizer reminded me of some...
 date: 2021-01-12
 draft: false
 slug: /blog/Interviews,-Progress,-and-Work.-

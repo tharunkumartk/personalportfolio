@@ -1,8 +1,6 @@
 ---
 title: Facial Recognition, New Ideas, and Coding.
-description: I made glasses for my computer.
-
-This week, I focused on learning about computer vision and facial r...
+description: I made glasses for my computer.This week, I focused on learning about computer vision and facial r...
 date: n 24-01-24
 draft: false
 slug: /blog/Facial-Recognition,-New-Ideas,-and-Coding.
