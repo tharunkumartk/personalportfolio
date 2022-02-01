@@ -143,7 +143,7 @@ const About = () => {
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://transgti.com/">a transportation intelligence company</a>,{' '}
               <a href="https://intuitiontx.com">a start-up tutoring business</a>,{' '}and{' '}
-              <a href="https://www.apple.com/">a mentorship</a>. My
+              <a href="https://www.friscoisd.org/departments/independent-study-mentorship/students-parents">a mentorship</a>. My
               main focus these days is building AI tools that increase accessiblity of medical care at my school's Independent Study and Mentorship program.
             </p>
 
