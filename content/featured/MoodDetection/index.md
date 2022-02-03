@@ -3,7 +3,6 @@ date: '1'
 title: 'Mood Detection'
 cover: './DepressionReddit.png'
 github: 'https://github.com/tharunkumartk/MoodAnalysis'
-external: 'https://github.com/tharunkumartk/MoodAnalysis'
 tech:
   - VS Code
   - Reddit API

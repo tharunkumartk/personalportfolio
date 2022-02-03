@@ -2,7 +2,6 @@
 date: '2'
 title: 'Texas Climate Analysis'
 cover: './FinalMap.png'
-external: 'https://github.com/tharunkumartk/ClimateAnalysis'
 github: 'https://github.com/tharunkumartk/ClimateAnalysis'
 tech:
   - Python
