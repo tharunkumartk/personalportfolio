@@ -108,19 +108,6 @@ const Footer = () => {
           <div>Designed &amp; Built by Tharun Kumar Tiruppali Kalidoss. Inspiration from{''}
           <a href="https://brittanychiang.com/">Brittany Chiang.</a>
           </div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )}
       </StyledCredit>
     </StyledFooter>
   );
