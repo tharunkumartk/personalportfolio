@@ -4,7 +4,7 @@ title: 'Founder/Lead Tutor'
 company: 'InTuition'
 location: 'Frisco, TX'
 range: 'June 2020 - Present'
-url: 'intuitiontx.com'
+url: 'https://intuitiontx.wixsite.com/home'
 ---
 
 - Started a platform for high-schooler tutors to connect with parents and students for an inexpensive alternative to name-brand tutoring services.
