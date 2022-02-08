@@ -4,6 +4,7 @@ description: Our future is in drones.For the past week, I have been working with
 date: 2022-02-07
 draft: false
 slug: /blog/Drones,-Ideas,-and-Final-Product.
+
 tags: 
 ---
 
