@@ -1,5 +1,5 @@
 ---
-date: '2020-09-28'
+date: '2022-03-03'
 title: '3D-Modeling in Python'
 github: ''
 external: 'https://docs.google.com/document/d/1Duhu__cFGvNzO75AIs-dFFshDVmSAkpHi0V1etPswDY/edit?usp=sharing'
