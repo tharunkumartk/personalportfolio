@@ -14,3 +14,4 @@ export { default as Featured } from './sections/featured';
 export { default as Projects } from './sections/projects';
 export { default as Blogs } from './sections/blogs';
 export { default as Contact } from './sections/contact';
+export {default as NeuralNetwork} from './sections/neural'
