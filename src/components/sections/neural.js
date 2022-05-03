@@ -219,7 +219,7 @@ const NeuralNetwork = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-        <Main></Main>
+        <Main/>
         <StyledPic>
           <div className="wrapper">
             <StaticImage
