@@ -10,9 +10,9 @@ const StyledMainContainer = styled.main`
 const IndexPage = ({ location }) => (
   <Layout location={location}>
     <StyledMainContainer className="fillHeight">
-      {/* <Hero /> */}
+      <Hero />
       <About />
-      <NeuralNetwork />
+      {/* <NeuralNetwork /> */}
       <Jobs />
       <Featured />
       <Projects />
