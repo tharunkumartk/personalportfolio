@@ -144,7 +144,8 @@ const About = () => {
               <a href="https://transgti.com/">a transportation intelligence company</a>,{' '}
               <a href="https://intuitiontx.com">a start-up tutoring business</a>,{' '}and{' '}
               <a href="https://www.friscoisd.org/departments/independent-study-mentorship/students-parents">a mentorship</a>. My
-              main focus these days is building AI tools that increase accessiblity of medical care at my school's Independent Study and Mentorship program.
+              main focus these days is building AI tools that increase accessiblity of medical care while completing my Bachelors at {' '}
+              <a href="https://princeton.edu/">Princeton University</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

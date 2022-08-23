@@ -66,8 +66,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      I am a Data Scientist specializing in utilizing data to provide insightful predictions. Currently, I'm focused on exploring the field through internships and research opportunities.
-      </p>
+      I am a Computer Scientist specializing in utilizing data to provide insightful predictions. Currently, I'm pursuing a Bachelors in Computer Science at{' '}
+      <a href="https://princeton.edu/">Princeton University.</a>
+.      </p>
     </>
   );
 
