@@ -68,7 +68,7 @@ const Hero = () => {
       <p>
       I am a Computer Scientist specializing in utilizing data to provide insightful predictions. Currently, I'm pursuing a Bachelors in Computer Science at{' '}
       <a href="https://princeton.edu/">Princeton University.</a>
-.      </p>
+      </p>
     </>
   );
 
