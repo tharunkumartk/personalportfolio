@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-          <div>Designed &amp; Built by Tharun Kumar Tiruppali Kalidoss. Inspiration from{''}
+          <div>Built by Tharun Kumar Tiruppali Kalidoss. Heavy inspiration from{''}
           <a href="https://brittanychiang.com/">Brittany Chiang.</a>
           </div>
       </StyledCredit>
