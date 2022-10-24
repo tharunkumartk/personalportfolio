@@ -5,7 +5,7 @@ module.exports = {
     title: 'Tharun Kumar',
     description:
       'Tharun Kumar Tiruppali Kalidoss is a Data Scientist that specializes in utilizing data to provide insightful predictions.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://tharuntk.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'TharunKumar',
+        short_name: 'TharunKumar',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
