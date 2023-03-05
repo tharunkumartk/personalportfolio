@@ -6,7 +6,6 @@ module.exports = {
     description:
       'Tharun Kumar Tiruppali Kalidoss is a Data Scientist that specializes in utilizing data to provide insightful predictions.',
     siteUrl: 'https://tharuntk.netlify.app', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
   plugins: [
