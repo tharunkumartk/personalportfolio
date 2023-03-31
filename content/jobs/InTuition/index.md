@@ -3,7 +3,7 @@ date: '2020-06-01'
 title: 'Founder/Lead Tutor'
 company: 'InTuition'
 location: 'Frisco, TX'
-range: 'June 2020 - Present'
+range: 'June 2020 - Aug 2022'
 url: 'https://intuitiontx.wixsite.com/home'
 ---
 
