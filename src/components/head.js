@@ -17,7 +17,6 @@ const Head = ({ title, description, image }) => {
             defaultTitle: title
             defaultDescription: description
             siteUrl
-            defaultImage: image
             twitterUsername
           }
         }
@@ -25,13 +24,8 @@ const Head = ({ title, description, image }) => {
     `,
   );
 
-  const {
-    defaultTitle,
-    defaultDescription,
-    siteUrl,
-    defaultImage,
-    twitterUsername,
-  } = site.siteMetadata;
+  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername } =
+    site.siteMetadata;
 
   const seo = {
     title: title || defaultTitle,
