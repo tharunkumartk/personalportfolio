@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Typescript', 'React/Next.js', 'PyTorch, Tensorflow',  'Python', 'AWS', 'Data-cleaning w/ GPT'];
+  const skills = ['Typescript', 'React, Next.js', 'PyTorch, Tensorflow',  'Python', 'AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,8 +142,7 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://www.linkedin.com/company/nora-musics/about/">a Music start-up</a>,{' '}
-              <a href="https://openai.com/">OpenAI</a>,
-              {' '}and{' '}
+              <a href="https://openai.com/">OpenAI</a>,{' '}and{' '}
               <a href="http://rescalemed.org/">a biotech start-up</a>. My
               main focus these days is building AI tools that transform the world while completing my Bachelors at {' '}
               <a href="https://princeton.edu/">Princeton University</a>.
