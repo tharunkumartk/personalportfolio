@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'Python', 'React', 'Java', 'SciKit-Learn', 'Natural Language Toolkit, Tensorflow'];
+  const skills = ['Typescript', 'React/Next.js', 'PyTorch, Tensorflow',  'Python', 'AWS', 'Data-cleaning w/ GPT'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,14 +136,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Tharun Kumar, and I enjoy analyzing data across the internet to make viable predictions that have a meaningful impact on society. My interest in Data Science started when I was seven years old, when I attempted to emulate Sherlock Holmes in predicting human behavior through Artificial Intelligence. Although clueless at the time, I've grown significantly in the field of Computer Science through college-level courses and real-world experience. 
+              My name is Tharun Kumar, and I enjoy analyzing data across the internet to make viable predictions that have a meaningful impact on society. My interest in Computer Science started when I was ten years old, when I built modifications to Minecraft to add new blocks and items. Although clueless at the time, I've grown significantly in the field of Computer Science through college-level courses and real-world experience. 
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://openai.com/">OpenAI</a>,{' '}
-              <a href="https://intuitiontx.com">a start-up tutoring business</a>,{' '}and{' '}
-              <a href="https://www.friscoisd.org/departments/independent-study-mentorship/students-parents">a mentorship</a>. My
+              <a href="https://www.linkedin.com/company/nora-musics/about/">a Music start-up</a>,{' '}
+              <a href="https://openai.com/">OpenAI</a>,
+              {' '}and{' '}
+              <a href="http://rescalemed.org/">a biotech start-up</a>. My
               main focus these days is building AI tools that transform the world while completing my Bachelors at {' '}
               <a href="https://princeton.edu/">Princeton University</a>.
             </p>
