@@ -1,9 +1,10 @@
-import { useEffect, useRef } from 'react';
+import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -115,10 +116,10 @@ const StyledPic = styled.div`
 `;
 
 const About = () => {
-  const revealContainer = useRef(null);
+  const revealContainer = React.useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (prefersReducedMotion) {
       return;
     }
