@@ -10,5 +10,4 @@ url: 'https://www.friscoisd.org/departments/independent-study-mentorship/student
 - Researched how Artificial Intelligence is used in the real world
 - Developed various projects that contribute to diverse fields, such as Medicine, Climate Change, and Human-Computer Interaction
 - Held interviews with Data Scientist professionals to understand the professional aspect of the field
-- Co-operated with a team of Data Scientists to deliver maximum performance utilizing minimal resources
-
+- Cooperated with a team of Data Scientists to deliver maximum performance utilizing minimal resources
