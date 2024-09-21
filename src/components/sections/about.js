@@ -5,7 +5,6 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
-
 const StyledAboutSection = styled.section`
   max-width: 900px;
 
@@ -127,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Typescript', 'React, Next.js', 'PyTorch, Tensorflow',  'Python', 'AWS'];
+  const skills = ['Typescript', 'React, Next.js', 'PyTorch, Tensorflow', 'Python', 'AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -137,15 +136,19 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Tharun Kumar, and I enjoy analyzing data across the internet to make viable predictions that have a meaningful impact on society. My interest in Computer Science started when I was ten years old, when I built modifications to Minecraft to add new blocks and items. Although clueless at the time, I've grown significantly in the field of Computer Science through college-level courses and real-world experience. 
+              My name is Tharun Kumar, and I enjoy analyzing data across the internet to make viable
+              predictions that have a meaningful impact on society. My interest in Computer Science
+              started when I was ten years old, when I built modifications to Minecraft to add new
+              blocks and items. Although clueless at the time, I've grown significantly in the field
+              of Computer Science through college-level courses and real-world experience.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.linkedin.com/company/nora-musics/about/">a Music start-up</a>,{' '}
-              <a href="https://openai.com/">OpenAI</a>,{' '}and{' '}
-              <a href="http://rescalemed.org/">a biotech start-up</a>. My
-              main focus these days is building AI tools that transform the world while completing my Bachelors at {' '}
+              Fast-forward to today, and I’ve had the privilege of building startups with{' '}
+              <a href="https://en.wikipedia.org/wiki/Sebastian_Thrun">Sebastian Thrun</a>, working
+              at <a href="https://openai.com/">OpenAI</a>, and{' '}
+              <a href="https://noramusic.com/">a music start-up</a>. My main focus these days is
+              building AI tools that transform the world while completing my Bachelors at{' '}
               <a href="https://princeton.edu/">Princeton University</a>.
             </p>
 
