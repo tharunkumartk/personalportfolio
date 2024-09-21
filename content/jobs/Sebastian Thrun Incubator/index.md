@@ -1,3 +1,4 @@
+---
 date: '2024-05-01'
 title: 'Founder'
 company: 'Eric Schmidt Incubator'
