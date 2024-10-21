@@ -62,21 +62,21 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Tharun Kumar.</h2>;
-  const three = <h3 className="big-heading">I make predictions using data.</h3>;
+  const three = <h3 className="big-heading">I build cool software.</h3>;
   const four = (
     <>
       <p>
-      I am a Computer Scientist specializing in utilizing data to provide insightful predictions. Currently, I'm pursuing a Bachelors in Computer Science at{' '}
-      <a href="https://princeton.edu/">Princeton University.</a>
+        I am a problem solver specializing in building cool full-stack applications and solving
+        interesting problems using AI. Currently, I'm pursuing a Bachelors in Computer Science at{' '}
+        <a href="https://princeton.edu/">Princeton University.</a>
       </p>
     </>
   );
 
   const five = (
-    <Link className="email-link" to="/blog"  >
-        Check out my blog!
-      </Link>
-    
+    <Link className="email-link" to="/blog">
+      Check out my blog!
+    </Link>
   );
 
   const items = [one, two, three, four, five];
