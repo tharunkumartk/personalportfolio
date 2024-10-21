@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Mood Detection'
 cover: './DepressionReddit.png'
 github: 'https://github.com/tharunkumartk/MoodAnalysis'
