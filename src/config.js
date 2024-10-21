@@ -10,10 +10,10 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/tharunnn.kumar/',
     },
-    // {
-    //   name: 'Twitter',
-    //   url: 'https://twitter.com/bchiang7',
-    // },
+    {
+      name: 'Twitter',
+      url: 'https://x.com/tiruppali',
+    },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/tharun-kumar-tiruppali-kalidoss-0170441b5/',
